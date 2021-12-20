@@ -9,7 +9,6 @@ Introduction
 UroSound is a platform that performs non-intrusive sound-based uroflowmetry with a smartwatch.
 
 
-
 ## Table Of Contents ##
 
 0. [Folder Structure](##Folder%20Structure)
@@ -22,6 +21,7 @@ UroSound is a platform that performs non-intrusive sound-based uroflowmetry with
 -------------
 - `audios_dataset`: voiding events audio files recorded with the UroSound App and the Oppo smartwatch, for 8 volunteer patients
 - `standard_uroflowmetries`: standard uroflowmetry test results for 8 volunteer patients
+Note: to preserve the privacy of the volunteer patients, they have been idenficied with an ID: Ai, i=2,...,6 y Bj, j=5, 7 y 8.
 
 
 ## List of compatible  smartwatches ##
@@ -43,4 +43,6 @@ UroSound is a platform that performs non-intrusive sound-based uroflowmetry with
 
 ## Acknowledgement ##
 -------
+This research was supported by the Spanish Ministry of Science and Innovation under the PeaceOfMind project (ref. PID2019-105470RB-C31).
+
 Thanks to all the volunteer patients that made this project possible
