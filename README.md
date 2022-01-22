@@ -15,7 +15,7 @@ UroSound is a platform that performs non-intrusive sound-based uroflowmetry with
 1. [Lists of compatible smartwatches](#List%20of%20compatible%20smartwatches)
 2. [Acknowledgement](#acknowledgement)
 3. [Support](#support)
-
+4. [Publication](#publication)
 
 ##  Folder Structure ## 
 -------------
@@ -47,3 +47,9 @@ Note: to preserve the privacy of the volunteer patients, they have been idenfici
 This research was supported by the Spanish Ministry of Science and Innovation under the PeaceOfMind project (ref. PID2019-105470RB-C31).
 
 Thanks to all the volunteer patients that made this project possible
+
+
+## Publication ##
+L. Arjona, L. Enrique Diez, A. Bahillo Martinez and A. Arruza Echevarria, 
+"UroSound: A Smartwatch-based Platform to Perform Non-Intrusive Sound-based Uroflowmetry,
+" in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2022.3140590.
