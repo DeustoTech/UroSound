@@ -50,6 +50,7 @@ Thanks to all the volunteer patients that made this project possible
 
 
 ## Publication ##
+-------
 L. Arjona, L. Enrique Diez, A. Bahillo Martinez and A. Arruza Echevarria, 
 "UroSound: A Smartwatch-based Platform to Perform Non-Intrusive Sound-based Uroflowmetry,
 " in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2022.3140590.
