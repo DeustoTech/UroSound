@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="true"
+    android:orientation="vertical"
+
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".SettingsActivity"
+    tools:deviceIds="wear">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/control_panel"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="17dp"
+        android:onClick="copyAudiosToExternalStorage"
+        android:typeface="serif" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/patientIDtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/patient_code"
+        android:inputType="textPersonName"
+        android:textSize="18dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/update_butt"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#FFFFFF"
+        android:onClick="update_patientID"
+        android:text="@string/add_patient"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="22dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <Button
+        android:id="@+id/upload_butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8AD8D8"
+        android:onClick="upload_audios"
+        android:text="@string/send_audios"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="2"
+        android:selectAllOnFocus="false"
+        android:text=""
+        android:textColor="@color/design_default_color_background"
+
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+</LinearLayout>

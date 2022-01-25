@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UroSound</string>
+    <string name="title">UroSound</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="permission_accept">Permission granted</string>
+    <string name="permission_decline">Permission denied.</string>
+    <string name="recording">Recording ...</string>
+    <string name="recorded_sent_success">Audio sent to device: </string>
+    <string name="save_audios">Save ?</string>
+    <string name="positive_answer">       YES</string>
+    <string name="negative_answer">          NO</string>
+    <string name="audio_deleted">AUDIO DELETED</string>
+    <string name="audio_stored">AUDIO STORED</string>
+    <string name="control_panel">CONTROL PANEL</string>
+    <string name="patient_code">Patient code</string>
+    <string name="add_patient">ADD PATIENT</string>
+    <string name="send_audios">SEND AUDIOS</string>
+    <string name="register_first">REGISTER A PATIENT FIRST</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="no_audios_2send">NO AUDIOS TO SEND</string>
+    <string name="code_not_empty">CODE CANNOT BE EMPTY</string>
+    <string name="audios_sent">AUDIOS SENT OK. PATIENT </string>
+    <string name="sent">Sent: </string>
+    <string name="send_wait">Sending. Please wait ... </string>
+    <string name="reg">Registering ...</string>
+    <string name="tot_audios">Total Audios: </string>
+    <string name="error_regPatient">"ERROR - Internet conection AND/OR Patient Code"</string>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    android:forceDarkAllowed="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <!--  <Button
+          android:id="@+id/RecordText"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:text="@string/title"
+          android:textColor="@color/white"
+          android:background="@color/dark_grey"
+          android:textSize="14sp"/>
+  -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <Button
+        android:id="@+id/recordButtonwav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:onClick="audioButtonClickedwav"
+        android:text="@string/start_recording"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="32sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#595454"
+        android:gravity="center"
+        android:maxLines="2"
+        android:onClick="send_audio_server"
+        android:selectAllOnFocus="false"
+        android:text="Urosound"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="20sp"
+
+        />
+
+</LinearLayout>
+
