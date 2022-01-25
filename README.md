@@ -20,7 +20,7 @@ UroSound is a platform that performs non-intrusive sound-based uroflowmetry with
 
 ##  Folder Structure ## 
 -------------
-- `audios_dataset`: voiding events audio files recorded with the UroSound App and the Oppo smartwatch, for 8 volunteer patients
+- `audios_dataset`: voiding events audio files recorded with the UroSound App and the Oppo smartwatch, for 13 volunteer patients
 - `standard_uroflowmetries`: standard uroflowmetry test results for 8 volunteer patients
 - `UroSound App`: App source code for Wear OS devices.
 
@@ -31,11 +31,13 @@ Note: to preserve the privacy of the volunteer patients, they have been idenfici
 ## UroSound App ##
 --------------
 Currently only available for Android Wear OS. It is available for Spanish and English languages.
-`Prerequisites`:
+
+*Prerequisites:
+
 - Latest Android Studio (The project has been built with version 4.2.1 )
 - Android SDK 28
 - Android Build Tools v30.0.3
-- Instructions manual: comming soon
+- Instructions manual: comming soon..
 
 - `UroSound App screenshots`:
 --------------
