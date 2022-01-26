@@ -124,7 +124,7 @@ class SettingsActivity : Activity() {
     private fun goToRegisterAnonymous(context: Context, patientID: String, pass: String) {
         val jsonObjRequest: StringRequest = object : StringRequest(
             Method.POST,
-            URL + "/api/patientAuth/registerAnonymous",
+            URL + "route-of-the-web-service",
             Response.Listener {
                 registrado = true
                 show_toast("PACIENTE REGISTRADO CON EXITO: "+patientID,1)
@@ -134,7 +134,6 @@ class SettingsActivity : Activity() {
                 registerBut.text = getString(R.string.add_patient)
                 try {
                     show_toast("ERROR - REVISE LA CONEXION A INTERNET Y EL CODIGO DEL PACIENTE",1)
-                    //show_toast("ERROR: "+error.networkResponse.data,1)
                 } catch (e: Exception) {
                     e.printStackTrace()
 
@@ -199,7 +198,7 @@ class SettingsActivity : Activity() {
 
     private fun uploadAudioToMongoDB(file: File, context: SettingsActivity,duration:String) {
         val jsonObjRequest: StringRequest = object : StringRequest(
-           Method.POST, URL + "/api/audios/uploadaudio",
+           Method.POST, URL + "route-of-the-web-service",
             Response.Listener { response ->
                 updateGUiAudios()
                 file.delete()
@@ -252,7 +251,7 @@ class SettingsActivity : Activity() {
     private fun goToLogin_upload(context: Context, patientID: String, pass: String) {
         val jsonObjRequest: StringRequest = object : StringRequest(
             Method.POST,
-            URL + "/api/patientAuth/login",
+            URL + "route-of-the-web-service",
             Response.Listener {
                 uploadBut.text = getString(R.string.send_wait)
                 iterateOverFolderFiles(this)
